@@ -1,0 +1,21 @@
+.button-landing {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(0, -50%); /* Ajusta la posición al centro vertical */
+}
+
+.button-landing-content {
+    background-color: #b700ff; /* Color de fondo del botón */
+    padding: 10px 20px; /* Ajusta el relleno del botón según sea necesario */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.button-landing-content a {
+    color: #fff; /* Color del texto del enlace dentro del botón */
+    text-decoration: none;
+}

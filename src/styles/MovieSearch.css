@@ -1,0 +1,16 @@
+.search {
+    margin: 1em 0 1em 0;
+    display: inline-block;
+    width: 500px;
+
+}
+
+.search input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+}
