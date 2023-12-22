@@ -39,6 +39,7 @@ export const MovieInfo = ({movie, addMovieToRentMovies, rentMovies}) => {
                         <button>Regresar a Pantalla Principal</button>
                     </Link>
                     <button onClick={(event) => {
+                        console.log(rentMovies);
                         addMovieToRentMovies(movie)
                     }
                     }>Alquilar

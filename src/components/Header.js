@@ -1,7 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import '../styles/Header.css';
 import {useMovieContext} from "../context/MovieContext";
-import {Link} from "react-router-dom";
+
 
 export const Header = () => {
 

@@ -1,6 +1,4 @@
-import react from 'react';
 import '../styles/BackgroundLanding.css'
-import {Header} from "./Header";
 
 
 
