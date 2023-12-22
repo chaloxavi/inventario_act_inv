@@ -2,7 +2,7 @@
     background-image: url('../assets/Backgroung.png'); /* Ruta de la imagen */
     background-size: cover;
     background-position: center;
-    height: 83vh;
+    height: 680px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,25 +12,11 @@
 
 .background-not-found-image-content {
     background-image: url('../assets/not-found.gif');
-    height: 650px;
-    width: 600px;
-    position: absolute;
-    font-weight: bold;
-    top: 770px;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Ajusta la posición al centro correctamente */
-
-
-}
-
-.background-landing-image-text{
     height: 600px;
     width: 600px;
     position: absolute;
-    top: 620px;
-    left: 400px;
-    font-size: 100px;
     font-weight: bold;
-    font-style: italic;
-    transform: translate(-50%, -50%);
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta la posición al centro correctamente */
 }
