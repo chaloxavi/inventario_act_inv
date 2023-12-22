@@ -15,6 +15,7 @@ export const AppRouter = () => {
             <div>
                 <MovieProvider>
                     <Routes>
+                        <Route path="/" element={<Landing />} />
                         <Route path="/Principal" element={<PrincipalView/>}/>
                         <Route path="/MovieView/:name" element={<MovieView/>}/>
                         <Route path="/Landing" element={<Landing/>}/>
